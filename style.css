@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    letter-spacing: 1px;
+}
+
+header {
+
+    background-color: rgb(9, 9, 70);
+}
+
+.container-para p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.container-icons a {
+    text-decoration: none;
+    outline: none;
+}
+
+.container-icons a i {
+    font-size: 19px;
+    padding: 4px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+li:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.about-courses {    
+    background-image: 
+    linear-gradient( rgba(0,0,255,0.5),rgba(0,0,255,0.5)),
+    url("img/bg.jpg");
+    background-size: cover;
+}
+
+
+.container .row .col {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+.container .row .col .logo i {
+    content: "";
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: rgba(9, 73, 129, 0.404);
+    border-radius: 50%;
+}
+
+.card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+}
+
+.card-tittle {
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.card-tittle:hover {
+    color: rgb(199, 166, 84);
+}
+
+.G-btn:hover {
+    background-color: rgba(235, 190, 77, 0.925);
+}
+
+.events .events-info {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.sensational{
+   background-image:
+   linear-gradient(rgba(0,0,255,0.5),rgba(0,0,255,0.5)),
+   url("img/bg.jpg");
+   background-size: cover;
+   background-attachment: fixed;
+    margin-top: 3rem;
+}
+
+.footer {
+    background-color: rgb(9, 9, 70);
+    margin-top: 3rem;
+}
+.events-date,
+.B-date {
+    position: absolute;
+    top: 0;
+    left: 10;
+}
+
+.list-group-item {
+    padding-left: 0;
+}
+
